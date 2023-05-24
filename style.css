@@ -62,19 +62,13 @@ a {
 
 }
 
-/* Adequação de Layout, diferentes tamanhos de midias */
-@media screen and (max-width: 700px) {
-    h1 {
-        display: none;
-
-    }
 
     nav {
         flex-direction: column;
-
+        font-family: 'Cookie', cursive;
     }
 
-}
+
 /* Titulo */
 h1 {
     margin: 20px 400px 15px 80px;
