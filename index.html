@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,57 +13,64 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Comic+Neue&family=Cookie&family=Martel:wght@300&family=Playfair+Display&family=Prata&display=swap"
         rel="stylesheet">
 
-    <title>Projeto Erica Fernanda</title>
+    <title>Projeto</title>
 </head>
 
 <body>
-
-    <header>
+    <!-- cabeçalho -->
+    <header class="sobremim">
         <h1>Sobre mim</h1>
-
-        <a href="">Resumo</a>
-        <a href="">Hobbies</a>
-        <a href="">Contato</a>
+        <nav>
+            <a class="links-header" href="#resumo">Resumo</a>
+            <a class="links-header" href="#hobbies">Hobbies</a>
+            <a class="links-header" href="#contato">Contato</a>
         </nav>
     </header>
+    <!-- fim cabeçalho -->
 
-    <p> Resumo<br> Meu nome é Erica, tenho 31 anos, moro na região metropolitana de Curitiba com meus pais. Sou
-        apaixonada por animais, tenho 1 cachorra chamada Pandora da raça Chow chow e um casal de calopsitas a Branca e o
-        Pingo, são os amores da minha vida. Atualmente estudando desenvolvimento Web pelo Resilia e Ebanx. Estou
-        apaixonada pela área principalmente pelo front-end. Nunca tinha me imaginado sendo programadora.
-        Para o futuro pretendo me desenvolver a cada dia mais e conquistar uma vaga na área.</p>
+    <!-- Inicio resumo -->
+    <section id="resumo">
 
-    <div class="container">
+        <p> Meu nome é Erica, tenho 31 anos, moro na região metropolitana de Curitiba com meus pais. Sou
+            apaixonada por animais, tenho 1 cachorra chamada Pandora da raça Chow chow e um casal de calopsitas a Branca
+            e o
+            Pingo, são os amores da minha vida. Atualmente estudando desenvolvimento Web pelo Resilia e Ebanx. Estou
+            apaixonada pela área principalmente pelo front-end. Nunca tinha me imaginado sendo programadora.
+            Para o futuro pretendo me desenvolver a cada dia mais e conquistar uma vaga na área.</p>
+        <!-- fim do resumo -->
 
+        <!-- Minha foto -->
         <img src="./Imagens/imagemerica.png" alt="fotoerica">
 
+    </section>
+    <!-- titulo Hobbies -->
+    <h2>Hobbies</h2>
 
-        <p>Hobbies<br>Meus Hobbies são ir ao parque andar de patins, passear com minha cachorra, assistir series, ir nas
+    <section id="hobbies">
+        <!-- Imagem cachoeira -->
+        <img class="cachoeira" src="./Imagens/Sem título.png" alt="cachoeira de mandirituba">
+        <!-- paragráfo -->
+        <p>Meus Hobbies são ir ao parque andar de patins, passear com minha cachorra, assistir series, ir nas
             cachoeiras da redondeza onde moro, amo estar em contato com a natureza. </p>
 
-        <img src="./Imagens/borboleta.png" alt="borboleta">
-        <img src="./Imagens/Sem título.png" alt="cachoeira">
+    </section>
 
-    </div>
-
-
-
+    <!-- Formulario -->
+    <h2>Contato</h2>
 
     <form>
-        <fieldset>
-            <ul>
-                <h2>Contato</h2>
-                <label><strong>Nome <input type="name" id="username" name="username"> </strong> </label><br>
-                <label><strong>Email <input type="email" id="username" name="username"></strong></label><br>
-                <label><strong>Mensagem</label><br> <textarea></textarea>
+        <ol>
+            <label>Nome <input type="name"> </label>
+            <label>Email <input type="email"> </label>
+            <label> Mensagem <input type="mensagem"><button class="btn">Enviar</button></label>
+        </ol>
 
-                <button class="btn"><strong>Enviar</strong></button>
-            </ul>
     </form>
 
-    <div class="footer">
-        <h5>By Erica Fernanda</h5>
-    </div>
+    <!-- Rodapé -->
+    <footer>
+        <h3>By Erica Fernanda</h3>
+    </footer>
 
 </body>
 

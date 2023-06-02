@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imagem de fundo */
+body {
+    background-image: url("../Imagens/fundo.jpg");
+
+}
+
+/* Cabeçalho */
+header {
+
+    display: flex;
+    color: #54478c;
+    justify-content: space-around;
+    height: 80%;
+    font-size: 30px;
+
+}
+
+/* navegação do cabeçalho */
+nav {
+
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Cookie', cursive;
+}
+
+a:hover {
+
+    transform: scale(1.1);
+    color: #e0b1cb;
+}
+
+/* fim da navegação do header */
+
+
+/* /* Section  */
+#resumo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Titulo h1*/
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+}
+
+/* paragráfo */
+p {
+    font-family: 'Cookie', cursive;
+    margin: 40px 20px 0 10px;
+    font-size: 25px;
+    padding: 5px 20px 0;
+    text-align: justify;
+
+}
+
+img {
+    margin-right: 50px;
+    height: 180px;
+    margin-top: 35px;
+
+}
+
+/* Titulo 2 */
+h2 {
+    font-family: 'Cookie', cursive;
+    color: #54478c;
+    font-size: 50px;
+    text-align: center;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* imagem */
+.cachoeira {
+    margin: 0px 0px 0px 100px;
+
+}
+
+/* informações do contato */
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    position: static;
+}
